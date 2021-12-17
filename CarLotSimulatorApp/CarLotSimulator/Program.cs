@@ -8,6 +8,8 @@ namespace CarLotSimulator
         static void Main(string[] args)
         {
             CarLot lot = new CarLot();
+            lot.Greet();
+            CarLot.Greet2();
 
             //TODO
 

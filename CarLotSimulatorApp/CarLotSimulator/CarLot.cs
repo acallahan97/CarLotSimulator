@@ -8,6 +8,16 @@ namespace CarLotSimulator
     {
         public static int NumberOfCars;
         public List<Car> CarList { get; set; } = new List<Car>();
+
+        public void Greet()
+        {
+            Console.WriteLine("Hello!");
+        }
+
+        public static void Greet2()
+        {
+            Console.WriteLine("Hello again!");
+        }
         
     }
 }
